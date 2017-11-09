@@ -1,18 +1,22 @@
 PURPOSE:
 ----------------------------------------------------
 * Monitor Future Videogame Servers (like minecraft)
-	� Check if servers are online
-	� See Player count and ping of servers
-	� Find server IP address
+	° Check if servers are online
+	° See Player count and ping of servers
+	° Find server IP address
 * Forum or Comments for player ideas
 ___________________________________________________
 
 NOTES:
 ----------------------------------------------------
 * Database Notes:
-	� Table for obscene words (for censorship) 
-	� Table for user's (commentary) with hashed passwords
+	° Table for obscene words (for censorship) 
+	° Table for user's (commentary) with hashed passwords
+	° Table for servers [server related data]
 * Implement framework (like Laravel?)
 * Implement git for version control
 * Implement CSS framework (TwitterBootstrap)
 * Implement virtual enviroment for testing
+* Following url contains code for querying servers 
+	for information:
+	https://dinnerbone.com/minecraft/tools/status/

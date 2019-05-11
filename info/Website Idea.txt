@@ -1,4 +1,18 @@
-PURPOSE:
+REPURPOSED IDEA:
+Create a web-based application hub for different hobbies
+including but not limited to:
+	Gardening
+	Clockwork
+	Music
+	Video Games (see below server idea)
+----------------------------------------------------
+First iteration of website will store data manually via
+form based submissions until I can research some APIs
+and free data sources online
+
+Include a job eventually to parse through user's 
+inventory of seeds and determine possible planting
+based on env factors such as PH value and seed zones
 ----------------------------------------------------
 * Monitor Future Videogame Servers (like minecraft)
 	° Check if servers are online

@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Entity\User;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -25,5 +25,10 @@ class User extends Authenticatable
      */
     protected $hidden = [
         'password', 'remember_token',
-    ];
+	];
+	
+	public function passwords()
+	{
+		return $this->hasMany(\App\Entity\Password\Password::class);
+	}
 }
